@@ -1,5 +1,5 @@
 django
-django-cors-header
+django-cors-headers
 djangorestframework
 Pillow
 django-filter
