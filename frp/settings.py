@@ -36,6 +36,7 @@ CORS_ORIGIN_WHITELIST = [
 # Application definition
 
 INSTALLED_APPS = [
+    'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,7 +46,6 @@ INSTALLED_APPS = [
     'rest_framework',
      'corsheaders',
     'django_filters',
-    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
