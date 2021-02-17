@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&-k7e!c9=d@6@@oq8cczum4l+o3gz(i3*^bd@z7$0&e)v(joj9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -139,9 +139,9 @@ MEDIA_URL = '/media/'
 
 STATIC_URL = '/static/'
 
-# STATIC_DIR = [
-#     os.path.join(BASE_DIR, "static"),
-#     "/home/invest/marketplace/frpback/static/"
-# ]
-# STATICFILES_DIRS = [STATIC_DIR]   
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_DIR = [
+    os.path.join(BASE_DIR, "static"),
+    "/home/invest/marketplace/frpback/static/"
+]
+STATICFILES_DIRS = [STATIC_DIR]   
+# STATIC_ROOT = os.path.join(BASE_DIR, "static")
