@@ -139,12 +139,14 @@ MEDIA_URL = '/media/'
 
 STATIC_URL = '/static/'
 
-STATIC_DIR = [
-    os.path.join(BASE_DIR, "static"),
-    "/home/invest/marketplace/frpback/static/"
-]
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static/'),
 )  
-# STATIC_ROOT = os.path.join(BASE_DIR, "static")
+
+# STATIC_DIR = [
+#     os.path.join(BASE_DIR, "static"),
+#     "/home/invest/marketplace/frpback/static/"
+# ]
+
+
 
