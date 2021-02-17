@@ -3,6 +3,7 @@
 import os
 import sys
 from django.core.management.commands.runserver import Command
+import mimetypes
 
 def main():
     """Run administrative tasks."""
@@ -21,3 +22,4 @@ def main():
 if __name__ == '__main__':
     main()
 
+mimetypes.add_type("text/css", ".css", True)
