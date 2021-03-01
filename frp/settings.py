@@ -32,6 +32,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:8080',
+    'https://frp.admlr.lipetsk.ru'
  ]
 
  CORS_ALLOWED_ORIGINS = [
