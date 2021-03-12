@@ -25,6 +25,7 @@ class Company(models.Model):
     slug = models.SlugField(max_length=250, unique=True, null=False, blank=False)
     full_name = models.CharField('Полное название компании', max_length=100)
     description = models.TextField('Описание')
+    short_description = models.CharField('Краткое описание',max_length=500, default='')
     branch = models.ForeignKey(Branch, on_delete=models.CASCADE, verbose_name='Отрасль' , null=True)
 
     class Meta:

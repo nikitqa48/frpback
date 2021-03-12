@@ -36,7 +36,7 @@ CORS_ORIGIN_WHITELIST = [
  ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://frp.admlr.lipetsk.ru/"
+    "https://frp.admlr.lipetsk.ru"
 ]
 # Application definition
 
